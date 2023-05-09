@@ -3,8 +3,7 @@ import { ChakraProvider, Flex,  } from "@chakra-ui/react";
 import { ThemeProvider, useUser } from "./context/ThemeContext"
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
-//import Footer from "./components/Footer";
-
+import { Footer } from "./components/Footer";
 const Root = () => {
     const {theme} = useUser()
 
@@ -16,6 +15,7 @@ const Root = () => {
         >
             <Header />
             <Home />
+            <Footer />
         </div>
     )
 }
