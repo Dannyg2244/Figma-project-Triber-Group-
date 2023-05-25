@@ -1,4 +1,4 @@
-import { Box, HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom"
 import { faFacebook, faInstagram, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -37,10 +37,10 @@ export const Footer = () => {
                 </Box>
                 <Box>
                 <HStack spacing="4">
-                    <a href=""> <FontAwesomeIcon  icon={faFacebook}/> </a>
-                    <a href=""><FontAwesomeIcon  icon={faInstagram}/></a>
-                    <a href=""><FontAwesomeIcon  icon={faTwitter}/></a>
-                    <a href=""><FontAwesomeIcon  icon={faLinkedin}/></a>
+                        <a href="https://web.facebook.com/" rel="noOpener noReferral" target="_blank"> <FontAwesomeIcon  icon={faFacebook}/> </a>
+                        <a href="https://www.instagram.com/" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faInstagram}/></a>
+                        <a href="https://twitter.com/home" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faTwitter}/></a>
+                        <a href="https://www.linkedin.com/feed/" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faLinkedin}/></a>
                 </HStack>
                 </Box>
             </HStack>
@@ -99,10 +99,10 @@ export const Footer = () => {
                     </Box>
                     <Box>
                         <HStack spacing="4">
-                        <a href=""> <FontAwesomeIcon  icon={faFacebook}/> </a>
-                        <a href=""><FontAwesomeIcon  icon={faInstagram}/></a>
-                        <a href=""><FontAwesomeIcon  icon={faTwitter}/></a>
-                        <a href=""><FontAwesomeIcon  icon={faLinkedin}/></a>
+                        <a href="https://web.facebook.com/" rel="noOpener noReferral" target="_blank"> <FontAwesomeIcon  icon={faFacebook}/> </a>
+                        <a href="https://www.instagram.com/" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faInstagram}/></a>
+                        <a href="https://twitter.com/home" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faTwitter}/></a>
+                        <a href="https://www.linkedin.com/feed/" rel="noOpener noReferral" target="_blank"><FontAwesomeIcon  icon={faLinkedin}/></a>
                         </HStack>
                     </Box>
                 </HStack>
