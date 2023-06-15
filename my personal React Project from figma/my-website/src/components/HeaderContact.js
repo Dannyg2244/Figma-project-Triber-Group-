@@ -112,7 +112,7 @@ export const HeaderContact = () => {
                     </HStack>
                 </nav>
                 <nav>
-                    <Button background="#F56411" _hover="" border="none">Get Started</Button>
+                <Link rel="noFollow" to="/signup"><Button background="#F56411" _hover="black" border="none">Get Started</Button></Link>
                 </nav>
             </HStack>
         </Box>
